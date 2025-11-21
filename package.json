@@ -1,0 +1,27 @@
+{
+  "name": "resend-mcp",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "fastmcp dev index.ts",
+    "inspect": "fastmcp inspect index.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "bun run build"
+  },
+  "keywords": [
+    "mcp",
+    "fastmcp"
+  ],
+  "devDependencies": {
+    "fastmcp": "^3.8.2",
+    "mammoth": "^1.9.1",
+    "zod": "^3.25.67",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
