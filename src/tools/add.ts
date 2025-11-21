@@ -1,6 +1,6 @@
 import type { Tool } from 'fastmcp';
 import { z } from 'zod';
-import { useLogger } from '../utils/logger.ts';
+import { useLogger } from '../utils/logger';
 
 const name = 'add';
 const description = 'add two numbers';

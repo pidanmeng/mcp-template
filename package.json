@@ -1,11 +1,11 @@
 {
   "name": "@pidanmoe/mcp-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "dist/index.js",
-  "type": "module",
   "private": false,
+  "preferGlobal": true,
   "bin": {
-    "mcp-template": "./dist/index.js"
+    "@pidanmoe/mcp-template": "./dist/index.js"
   },
   "scripts": {
     "dev": "fastmcp dev src/index.ts",

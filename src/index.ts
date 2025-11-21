@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { FastMCP } from 'fastmcp';
-import { add } from './tools/add.js';
+import { add } from './tools/add';
 
 const server = new FastMCP({
   name: 'MCP Template',
