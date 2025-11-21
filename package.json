@@ -1,5 +1,5 @@
 {
-  "name": "resend-mcp",
+  "name": "mcp-template",
   "module": "dist/index.js",
   "type": "module",
   "private": true,
