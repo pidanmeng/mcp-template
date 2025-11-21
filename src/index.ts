@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 import { FastMCP } from 'fastmcp';
-import { sendEmail } from './tools/add';
+import { add } from './tools/add.js';
 
 const server = new FastMCP({
-  name: 'Resume Parser',
-  version: '1.0.4',
+  name: 'MCP Template',
+  version: '1.0.0',
 });
 
-server.addTool(sendEmail);
+server.addTool(add);
 
 server.start({
   transportType: 'stdio',

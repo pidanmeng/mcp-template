@@ -1,13 +1,16 @@
 {
   "name": "resend-mcp",
-  "module": "index.ts",
+  "module": "dist/index.js",
   "type": "module",
   "private": true,
+  "bin": {
+    "resume-parser-mcp": "./dist/index.js"
+  },
   "scripts": {
-    "dev": "fastmcp dev index.ts",
-    "inspect": "fastmcp inspect index.ts",
+    "dev": "fastmcp dev src/index.ts",
+    "inspect": "fastmcp inspect src/index.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "bun run build"
   },

@@ -1,6 +1,6 @@
 import type { Tool } from 'fastmcp';
 import { z } from 'zod';
-import { useLogger } from '../utils/logger';
+import { useLogger } from '../utils/logger.ts';
 
 const name = 'add';
 const description = 'add two numbers';
@@ -22,4 +22,4 @@ const add: Tool<any, z.ZodType<typeof parameters._type>> = {
   },
 };
 
-export { add as sendEmail };
+export { add };
