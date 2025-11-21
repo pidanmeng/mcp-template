@@ -31,6 +31,24 @@ bun run inspect
 bun run build
 ```
 
+## 部署 MCP
+
+```JSON
+{
+  "mcpServers": {
+    "amap-maps": {
+      "args": ["-y","@pidanmoe/mcp-template"],
+      "command": "npx",
+      "env": {
+        // 环境变量
+      }
+    }
+  }
+}
+```
+
+
+
 ## 项目结构
 
 - [index.ts](file:///Volumes/SSD/_work/resend-mcp/index.ts): 主入口文件，初始化并启动 FastMCP 服务器
