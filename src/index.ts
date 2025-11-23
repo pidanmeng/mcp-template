@@ -3,7 +3,7 @@ import { FastMCP } from 'fastmcp';
 import { add } from './tools/add';
 
 const server = new FastMCP({
-  name: 'MCP Template',
+  name: 'mcp-template',
   version: '1.0.0',
 });
 

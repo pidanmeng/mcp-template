@@ -6,6 +6,9 @@
   "bin": {
     "@pidanmoe/mcp-template": "./dist/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "fastmcp dev src/index.ts",
     "inspect": "fastmcp inspect src/index.ts",
