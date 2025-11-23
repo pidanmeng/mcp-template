@@ -36,7 +36,7 @@ bun run build
 ```JSON
 {
   "mcpServers": {
-    "amap-maps": {
+    "mcp-template": {
       "args": ["-y","@pidanmoe/mcp-template"],
       "command": "npx",
       "env": {
