@@ -5,8 +5,8 @@ import { useLogger } from '../utils/logger';
 const name = 'add';
 const description = 'add two numbers';
 const parameters = z.object({
-  a: z.number(),
-  b: z.number(),
+  a: z.number().describe('The first number to add'),
+  b: z.number().describe('The second number to add'),
 });
 
 const add: Tool<any, z.ZodType<typeof parameters._type>> = {
